@@ -1,0 +1,55 @@
+// Addaption of https://davidwalsh.name/write-media-queries-sass
+
+$xl-width: '1200px';
+$lg-width: '992px';
+$md-width: '786px';
+$sm-width: '576px';
+
+@mixin xlUp {
+  @media (min-width: #{$xl-width}) { @content; }
+}
+@mixin lgUp {
+  @media (min-width: #{$lg-width}) { @content; }
+}
+@mixin mdUp {
+  @media (min-width: #{$md-width}) { @content; }
+}
+@mixin smUp {
+  @media (min-width: #{$sm-width}) { @content; }
+}
+@mixin xlDown {
+  @media (max-width: #{$xl-width}) { @content; }
+}
+@mixin lgDown {
+  @media (max-width: #{$lg-width}) { @content; }
+}
+@mixin mdDown {
+  @media (max-width: #{$md-width}) { @content; }
+}
+@mixin smDown {
+  @media (max-width: #{$sm-width}) { @content; }
+}
+
+%hiddenXS {
+  @include smDown {
+    display: none;
+  }
+}
+
+/*
+Example of usage:
+
+@include smUp {
+  body {
+    background: red;
+  }
+};
+
+Compiles to
+
+@media (min-width: 576px) {
+  body {
+    background: red;
+    }
+};
+*/
