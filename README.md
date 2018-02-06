@@ -30,3 +30,12 @@ $sm-width: '576px';
     }
 };
 ```
+There are visibility Extends as well:
+```
+%hiddenLgDown {
+  @include smDown {
+    display: none;
+  }
+}
+```
+This would hide an element on Lg size and below.
