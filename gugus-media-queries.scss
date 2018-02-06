@@ -67,7 +67,7 @@ $sm-width: '576px';
     display: none;
   }
 }
-%hiddenXlup {
+%hiddenXlUp {
   @include xlUp {
     display: none;
   }
