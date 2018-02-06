@@ -30,11 +30,50 @@ $sm-width: '576px';
   @media (max-width: #{$sm-width}) { @content; }
 }
 
-%hiddenXS {
+// Visibility Classes Downwards
+%hiddenSmDown {
   @include smDown {
     display: none;
   }
 }
+%hiddenMdDown {
+  @include mdDown {
+    display: none;
+  }
+}
+%hiddenLgDown {
+  @include lgDown {
+    display: none;
+  }
+}
+%hiddenXlDown {
+  @include xlUp {
+    display: none;
+  }
+}
+// Visibility Classes Upwards
+%hiddenSmUp {
+  @include smUp {
+    display: none;
+  }
+}
+%hiddenMdUp {
+  @include mdUp {
+    display: none;
+  }
+}
+%hiddenLgUp {
+  @include lgUp {
+    display: none;
+  }
+}
+%hiddenXlup {
+  @include xlUp {
+    display: none;
+  }
+}
+
+
 
 /*
 Example of usage:

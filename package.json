@@ -1,0 +1,29 @@
+{
+  "name": "gugus-media-queries",
+  "version": "1.0.0",
+  "description": "A simple SCSS Media Query Library based on the Bootstrap sizing with.",
+  "main": "test.js",
+  "style": "gugus-media-queries.scss",
+  "scripts": {
+    "test": "This is the gugus media query package. Have a nice day :)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kaspar-allenbach@github.com/kaspar-allenbach/gugus-media-queries.git"
+  },
+  "keywords": [
+    "media",
+    "query",
+    "scss",
+    "sizes",
+    "bootstrap",
+    "simple",
+    "library"
+  ],
+  "author": "Kaspar Allenbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaspar-allenbach/gugus-media-queries/issues"
+  },
+  "homepage": "https://github.com/kaspar-allenbach/gugus-media-queries#readme"
+}
