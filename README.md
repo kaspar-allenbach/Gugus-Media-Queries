@@ -5,7 +5,7 @@ These queries are an adaption of [David Walshes Media Query Mixins](https://davi
 
 Import ins SCSS with: `@import "../../node_modules/gugus-media-queries/gugus-media-queries";`
 
-There are Size Variables to easily change the mixins. (These Sizes are based on Bootstrap)
+There are Size Variables to easily change the mixins. These Sizes are based on [Bootstrap 4] (https://getbootstrap.com/docs/4.0/layout/grid/#grid-options)
 
 ```
 $xl-width: '1200px';
