@@ -1,11 +1,11 @@
-# Gugus-Media-Queries
-A simple Media Query Library for Sass
+# Gugus Media-Queries
+A simple Media Query Library for Sass to go.
 
 These queries are an adaption of [David Walshes Media Query Mixins](https://davidwalsh.name/write-media-queries-sass)
 
 Import ins SCSS with: `@import "../../node_modules/gugus-media-queries/gugus-media-queries";`
 
-There are Size Variables to easily change the mixins. These Sizes are based on [Bootstrap 4] (https://getbootstrap.com/docs/4.0/layout/grid/#grid-options)
+There are Size Variables to easily change the mixins. These Sizes are based on [Bootstrap 4](https://getbootstrap.com/docs/4.0/layout/grid/#grid-options)
 
 | Size           | px      | SCSS Variable             | Example Selector      | Example Selector (downwards) |
 | -------------- |:-------:| -------------------------:| ---------------------:| ----------------------------:|
