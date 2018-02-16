@@ -1,5 +1,5 @@
 # Gugus Media-Queries
-A simple Media Query Library for Sass to go.
+A simple Media Query Library for Sass to go. (Gugus: Swiss German for «peeck a boo»)
 
 These queries are an adaption of [David Walshes Media Query Mixins](https://davidwalsh.name/write-media-queries-sass)
 
