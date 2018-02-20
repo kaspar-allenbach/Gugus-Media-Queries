@@ -7,13 +7,13 @@ Import ins SCSS with: `@import "../../node_modules/gugus-media-queries/gugus-med
 
 There are Size Variables to easily change the mixins. These Sizes are based on [Bootstrap 4](https://getbootstrap.com/docs/4.0/layout/grid/#grid-options)
 
-| Size           | px      | SCSS Variable             | Example Selector      | Example Selector (downwards) |
-| -------------- |:-------:| -------------------------:| ---------------------:| ----------------------------:|
-| Extra small    | <576px  | `No Media Query required` | `none required`       | `none required`      |
-| Small          | ≥576px  | `$sm-width: '576px';`     | `@include smUp { … }` | `@include smDown { … }`      |
-| Medium         | ≥768px  | `$md-width: '768px';`     | `@include mdUp { … }` | `@include mdDown { … }`      |
-| Large          | ≥992px  | `$lg-width: '992px';`     | `@include lgUp { … }` | `@include lgDown { … }`      |
-| Extra large    | ≥1200px | `$xl-width: '1200px';`    | `@include xlUp { … }` | `@include XLDown { … }`      |
+| Size           | px      | Example Selector      | Example Selector (downwards) |
+| -------------- |:-------:| ---------------------:| ----------------------------:|
+| Extra small    | <576px  | `none required`       | `none required`      |
+| Small          | ≥576px  | `@include smUp { … }` | `@include smDown { … }`      |
+| Medium         | ≥768px  | `@include mdUp { … }` | `@include mdDown { … }`      |
+| Large          | ≥992px  | `@include lgUp { … }` | `@include lgDown { … }`      |
+| Extra large    | ≥1200px | `@include xlUp { … }` | `@include XLDown { … }`      |
 
 
 # Example of usage 
