@@ -34,13 +34,35 @@ There are Size Variables to easily change the mixins. These Sizes are based on [
     }
 };
 ```
+
+# Visibility Classes
 There are visibility Extends as well:
 ```
-.hiddenLgDown {
-  @include smDown {
-    display: none;
-  }
-}
+.hiddenLgDown { @include smDown { display: none; } }
 ```
 This would hide an element on Lg size and below.
-You can now add Visibility Classes as a extend, asa Mixin or as a class directly in th HTML:
+
+
+## Extend, Mixin, Oldschool
+You can now add Visibility Classes as a `extend`, as a `Mixin? or as a class directly in your `HTML`:
+
+#### As a Extend:
+
+```
+.yourThing {
+  @extend %hiddenSmDown;
+}
+```
+
+#### As a Mixin:
+```
+.yourThing {
+  @extend %hiddenSmDown;
+}
+```
+
+#### Or directely in HTML:
+
+```
+<li class="hiddenSmUp">Gugus Dada</li>
+```
