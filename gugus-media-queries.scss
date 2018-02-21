@@ -31,87 +31,87 @@ $sm-width: '576px';
 }
 
 // Visibility Classes Downwards
-%hiddenSmDown {
-  @include smDown {
-    display: none;
-  }
-}
-%hiddenMdDown {
-  @include mdDown {
-    display: none;
-  }
-}
-%hiddenLgDown {
-  @include lgDown {
-    display: none;
-  }
-}
-%hiddenXlDown {
-  @include xlUp {
-    display: none;
-  }
-}
-// Visibility Classes Upwards
-%hiddenSmUp {
-  @include smUp {
-    display: none;
-  }
-}
-%hiddenMdUp {
-  @include mdUp {
-    display: none;
-  }
-}
-%hiddenLgUp {
-  @include lgUp {
-    display: none;
-  }
-}
-%hiddenXlUp {
-  @include xlUp {
-    display: none;
-  }
-}
-// Visibility Classes Downwards
 .hiddenSmDown {
   @include smDown {
-    display: none;
+    display: none !important;
   }
 }
 .hiddenMdDown {
   @include mdDown {
-    display: none;
+    display: none !important;
   }
 }
 .hiddenLgDown {
   @include lgDown {
-    display: none;
+    display: none !important;
   }
 }
 .hiddenXlDown {
   @include xlUp {
-    display: none;
+    display: none !important;
   }
 }
 // Visibility Classes Upwards
 .hiddenSmUp {
   @include smUp {
-    display: none;
+    display: none !important;
   }
 }
 .hiddenMdUp {
   @include mdUp {
-    display: none;
+    display: none !important;
   }
 }
 .hiddenLgUp {
   @include lgUp {
-    display: none;
+    display: none !important;
   }
 }
 .hiddenXlUp {
   @include xlUp {
-    display: none;
+    display: none !important;
+  }
+}
+// Visibility Classes Downwards
+.hiddenSmDown {
+  @include smDown {
+    display: none !important;
+  }
+}
+.hiddenMdDown {
+  @include mdDown {
+    display: none !important;
+  }
+}
+.hiddenLgDown {
+  @include lgDown {
+    display: none !important;
+  }
+}
+.hiddenXlDown {
+  @include xlUp {
+    display: none !important;
+  }
+}
+// Visibility Classes Upwards
+.hiddenSmUp {
+  @include smUp {
+    display: none !important;
+  }
+}
+.hiddenMdUp {
+  @include mdUp {
+    display: none !important;
+  }
+}
+.hiddenLgUp {
+  @include lgUp {
+    display: none !important;
+  }
+}
+.hiddenXlUp {
+  @include xlUp {
+    display: none !important;
   }
 }
 
