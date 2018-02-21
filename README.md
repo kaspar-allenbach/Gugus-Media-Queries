@@ -43,7 +43,4 @@ There are visibility Extends as well:
 }
 ```
 This would hide an element on Lg size and below.
-
-#### Known Issues:
-
-The way SCSS works `%extends` are not possible within the media query scope like this. So yeah. That's not great. Looking for a solution.
+You can now add Visibility Classes as a extend, asa Mixin or as a class directly in th HTML:

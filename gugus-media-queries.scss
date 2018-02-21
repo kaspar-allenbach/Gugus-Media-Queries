@@ -30,90 +30,40 @@ $sm-width: '576px';
   @media (max-width: #{$sm-width}) { @content; }
 }
 
+
 // Visibility Classes Downwards
-.hiddenSmDown {
-  @include smDown {
-    display: none !important;
-  }
-}
-.hiddenMdDown {
-  @include mdDown {
-    display: none !important;
-  }
-}
-.hiddenLgDown {
-  @include lgDown {
-    display: none !important;
-  }
-}
-.hiddenXlDown {
-  @include xlUp {
-    display: none !important;
-  }
-}
+.hiddenSmDown {@include smDown {display: none !important;} }
+.hiddenMdDown {@include mdDown {display: none !important;} }
+.hiddenLgDown { @include lgDown { display: none !important;}}
+.hiddenXlDown {@include xlUp {display: none !important;}}
 // Visibility Classes Upwards
-.hiddenSmUp {
-  @include smUp {
-    display: none !important;
-  }
-}
-.hiddenMdUp {
-  @include mdUp {
-    display: none !important;
-  }
-}
-.hiddenLgUp {
-  @include lgUp {
-    display: none !important;
-  }
-}
-.hiddenXlUp {
-  @include xlUp {
-    display: none !important;
-  }
-}
+.hiddenSmUp {@include smUp {display: none !important;}}
+.hiddenMdUp {@include mdUp {display: none !important;}}
+.hiddenLgUp {@include lgUp {display: none !important;}}
+.hiddenXlUp {@include xlUp {display: none !important;}}
+
+
 // Visibility Classes Downwards
-.hiddenSmDown {
-  @include smDown {
-    display: none !important;
-  }
-}
-.hiddenMdDown {
-  @include mdDown {
-    display: none !important;
-  }
-}
-.hiddenLgDown {
-  @include lgDown {
-    display: none !important;
-  }
-}
-.hiddenXlDown {
-  @include xlUp {
-    display: none !important;
-  }
-}
+%hiddenSmDown {@include smDown {display: none !important;} }
+%hiddenMdDown {@include mdDown {display: none !important;} }
+%hiddenLgDown { @include lgDown { display: none !important;}}
+%hiddenXlDown {@include xlUp {display: none !important;}}
 // Visibility Classes Upwards
-.hiddenSmUp {
-  @include smUp {
-    display: none !important;
-  }
-}
-.hiddenMdUp {
-  @include mdUp {
-    display: none !important;
-  }
-}
-.hiddenLgUp {
-  @include lgUp {
-    display: none !important;
-  }
-}
-.hiddenXlUp {
-  @include xlUp {
-    display: none !important;
-  }
-}
+%hiddenSmUp {@include smUp {display: none !important;}}
+%hiddenMdUp {@include mdUp {display: none !important;}}
+%hiddenLgUp {@include lgUp {display: none !important;}}
+%hiddenXlUp {@include xlUp {display: none !important;}}
+
+// Visibility Classes Downwards
+@mixin hiddenSmDown {@include smDown {display: none !important;} }
+@mixin hiddenMdDown {@include mdDown {display: none !important;} }
+@mixin hiddenLgDown { @include lgDown { display: none !important;}}
+@mixin hiddenXlDown {@include xlUp {display: none !important;}}
+// Visibility Classes Upwards
+@mixin hiddenSmUp {@include smUp {display: none !important;}}
+@mixin hiddenMdUp {@include mdUp {display: none !important;}}
+@mixin hiddenLgUp {@include lgUp {display: none !important;}}
+@mixin hiddenXlUp {@include xlUp {display: none !important;}}
 
 
 /*
