@@ -31,43 +31,43 @@ $sm-width: '576px';
 }
 
 // Visibility Classes Downwards
-%hiddenSmDown {
+.hiddenSmDown {
   @include smDown {
     display: none;
   }
 }
-%hiddenMdDown {
+.hiddenMdDown {
   @include mdDown {
     display: none;
   }
 }
-%hiddenLgDown {
+.hiddenLgDown {
   @include lgDown {
     display: none;
   }
 }
-%hiddenXlDown {
+.hiddenXlDown {
   @include xlUp {
     display: none;
   }
 }
 // Visibility Classes Upwards
-%hiddenSmUp {
+.hiddenSmUp {
   @include smUp {
     display: none;
   }
 }
-%hiddenMdUp {
+.hiddenMdUp {
   @include mdUp {
     display: none;
   }
 }
-%hiddenLgUp {
+.hiddenLgUp {
   @include lgUp {
     display: none;
   }
 }
-%hiddenXlUp {
+.hiddenXlUp {
   @include xlUp {
     display: none;
   }
