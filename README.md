@@ -16,7 +16,7 @@ There are Size Variables to easily change the mixins. These Sizes are based on [
 | Extra large    | ≥1200px | `@include xlUp { … }` | `@include XLDown { … }`      |
 
 
-# Example of usage 
+# Example of usage
 
 #### foo.scss
 ```
@@ -36,7 +36,7 @@ There are Size Variables to easily change the mixins. These Sizes are based on [
 ```
 There are visibility Extends as well:
 ```
-%hiddenLgDown {
+.hiddenLgDown {
   @include smDown {
     display: none;
   }

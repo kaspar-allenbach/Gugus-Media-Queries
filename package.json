@@ -1,6 +1,6 @@
 {
   "name": "gugus-media-queries",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "A simple SCSS Media Query Library based on the Bootstrap sizing widths",
   "main": "test.js",
   "style": "gugus-media-queries.scss",
