@@ -13,7 +13,7 @@ There are Size Variables to easily change the mixins. These Sizes are based on [
 | Small          | ≥576px  | `@include smUp { … }` | `@include smDown { … }`      |
 | Medium         | ≥768px  | `@include mdUp { … }` | `@include mdDown { … }`      |
 | Large          | ≥992px  | `@include lgUp { … }` | `@include lgDown { … }`      |
-| Extra large    | ≥1200px | `@include xlUp { … }` | `@include XLDown { … }`      |
+| Extra large    | ≥1200px | `@include xlUp { … }` | `@include XlDown { … }`      |
 
 
 # Example of usage
@@ -43,22 +43,18 @@ There are visibility Extends as well:
 This would hide an element on Lg size and below.
 
 
-## Extend, Mixin, Oldschool
-You can now add Visibility Classes as a `extend`, as a `Mixin? or as a class directly in your `HTML`:
+## Extend, Mixin, HTML
+You can now add Visibility Classes as a `extend`, as a `Mixin` or as a class directly in your `HTML`:
 
 #### As a Extend:
 
 ```
-.yourThing {
-  @extend %hiddenSmDown;
-}
+.yourThing { @extend %hiddenSmDown; }
 ```
 
 #### As a Mixin:
 ```
-.yourThing {
-  @extend %hiddenSmDown;
-}
+.yourThing { @include hiddenSmDown; }
 ```
 
 #### Or directely in HTML:
