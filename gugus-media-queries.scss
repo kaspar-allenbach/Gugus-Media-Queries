@@ -4,6 +4,8 @@ $xl-width: '1200px';
 $lg-width: '992px';
 $md-width: '786px';
 $sm-width: '576px';
+$xs-width: '320px';
+
 
 @mixin xlUp {
   @media (min-width: #{$xl-width}) { @content; }
@@ -17,6 +19,9 @@ $sm-width: '576px';
 @mixin smUp {
   @media (min-width: #{$sm-width}) { @content; }
 }
+@mixin xsUp {
+  @media (min-width: #{$xs-width}) { @content; }
+}
 @mixin xlDown {
   @media (max-width: #{$xl-width}) { @content; }
 }
@@ -29,14 +34,20 @@ $sm-width: '576px';
 @mixin smDown {
   @media (max-width: #{$sm-width}) { @content; }
 }
+@mixin xsDown {
+  @media (max-width: #{$xs-width}) { @content; }
+}
+
 
 
 // Visibility Classes Downwards
+.hiddenXsDown {@include xsDown {display: none !important;} }
 .hiddenSmDown {@include smDown {display: none !important;} }
 .hiddenMdDown {@include mdDown {display: none !important;} }
 .hiddenLgDown { @include lgDown { display: none !important;}}
 .hiddenXlDown {@include xlUp {display: none !important;}}
 // Visibility Classes Upwards
+.hiddenXsUp {@include xsUp {display: none !important;}}
 .hiddenSmUp {@include smUp {display: none !important;}}
 .hiddenMdUp {@include mdUp {display: none !important;}}
 .hiddenLgUp {@include lgUp {display: none !important;}}
@@ -44,22 +55,26 @@ $sm-width: '576px';
 
 
 // Visibility Classes Downwards
+%hiddenXsDown {@include xsDown {display: none !important;} }
 %hiddenSmDown {@include smDown {display: none !important;} }
 %hiddenMdDown {@include mdDown {display: none !important;} }
 %hiddenLgDown { @include lgDown { display: none !important;}}
 %hiddenXlDown {@include xlUp {display: none !important;}}
 // Visibility Classes Upwards
+%hiddenXsUp {@include xsUp {display: none !important;}}
 %hiddenSmUp {@include smUp {display: none !important;}}
 %hiddenMdUp {@include mdUp {display: none !important;}}
 %hiddenLgUp {@include lgUp {display: none !important;}}
 %hiddenXlUp {@include xlUp {display: none !important;}}
 
 // Visibility Classes Downwards
+@mixin hiddenXsDown {@include xsDown {display: none !important;} }
 @mixin hiddenSmDown {@include smDown {display: none !important;} }
 @mixin hiddenMdDown {@include mdDown {display: none !important;} }
 @mixin hiddenLgDown { @include lgDown { display: none !important;}}
 @mixin hiddenXlDown {@include xlUp {display: none !important;}}
 // Visibility Classes Upwards
+@mixin hiddenXsUp {@include xsUp {display: none !important;}}
 @mixin hiddenSmUp {@include smUp {display: none !important;}}
 @mixin hiddenMdUp {@include mdUp {display: none !important;}}
 @mixin hiddenLgUp {@include lgUp {display: none !important;}}
