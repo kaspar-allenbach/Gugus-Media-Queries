@@ -9,7 +9,7 @@ There are Size Variables to easily change the mixins. These Sizes are based on [
 
 | Size           | px      | Example Selector      | Example Selector (downwards) |
 | -------------- |:-------:| ---------------------:| ----------------------------:|
-| Extra small    | <576px  | `none required`       | `none required`      |
+| Extra small    | ≥320px  | `@include xsUp { … }` | `@include xsDown { … }`      |
 | Small          | ≥576px  | `@include smUp { … }` | `@include smDown { … }`      |
 | Medium         | ≥768px  | `@include mdUp { … }` | `@include mdDown { … }`      |
 | Large          | ≥992px  | `@include lgUp { … }` | `@include lgDown { … }`      |
